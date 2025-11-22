@@ -1,0 +1,46 @@
+# --- Antigravity & Gemini ---
+.gemini/
+.aitk/
+GEMINI.md
+agents.md
+mcp_config.json
+!/GEMINI.md  # Uncomment if you want to track these
+!/agents.md
+
+# --- Node / React ---
+node_modules/
+dist/
+build/
+.output/
+coverage/
+.npm/
+*.log
+.DS_Store
+
+# --- Environment Variables (CRITICAL) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Sentry ---
+.sentryclirc
+
+# --- Firebase ---
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Python (If needed) ---
+__pycache__/
+*.py[cod]
+venv/
+.venv/
