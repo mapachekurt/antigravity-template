@@ -2,8 +2,9 @@
 
 A "Smart Template" for Google Antigravity that auto-configures React, Firebase, and Sentry.
 
-## 🚀 Quick Start (The "One-Shot")
+## 🚀 Quick Start
 
+### Option A: New Project (React/Vite)
 1. Open a new Antigravity Window.
 2. Paste this command into the Agent Chat:
 
@@ -11,6 +12,15 @@ A "Smart Template" for Google Antigravity that auto-configures React, Firebase, 
 > 1. Initialize a React app using Vite.
 > 2. Install `@sentry/react`.
 > 3. Read `GEMINI.md` and configure the Sentry SDK immediately.
+
+### Option B: Existing Project (Any Language)
+1. Open your existing project in an Antigravity Window.
+2. Paste this command into the Agent Chat:
+
+> **Agent, apply the Antigravity Template to this project.**
+> 1. Copy `GEMINI.md`, `agents.md`, and `mcp_config.json` to the root directory.
+> 2. Ensure `.gitignore` is updated to respect the new environment files (but do NOT overwrite existing ignore rules).
+> 3. Create a `.env` file from `.env.example` if one does not exist.
 
 ## 📂 What's Inside?
 
