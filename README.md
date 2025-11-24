@@ -14,13 +14,17 @@ A "Smart Template" for Google Antigravity that auto-configures React, Firebase, 
 > 3. Read `GEMINI.md` and configure the Sentry SDK immediately.
 
 ### Option B: Existing Project (Any Language)
-1. Open your existing project in an Antigravity Window.
+*Use this when you open an existing folder (like `mapachev1`) and want to add Antigravity powers.*
+
+1. Open your existing project.
 2. Paste this command into the Agent Chat:
 
 > **Agent, apply the Antigravity Template to this project.**
-> 1. Copy `GEMINI.md`, `agents.md`, and `mcp_config.json` to the root directory.
-> 2. Ensure `.gitignore` is updated to respect the new environment files (but do NOT overwrite existing ignore rules).
-> 3. Create a `.env` file from `.env.example` if one does not exist.
+> 1. Read `GEMINI.md`, `agents.md`, and `mcp_config.json` from my local template repo at:
+>    `c:\Users\Kurt Anderson\github projects\antigravity\antigravity-template\`
+> 2. Copy these files to the root of my current workspace.
+> 3. Create a `.env` file from the template's `.env.example` (if I don't have one).
+> 4. Update `.gitignore` to respect these new files.
 
 ## 📂 What's Inside?
 
