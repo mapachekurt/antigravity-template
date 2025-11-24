@@ -3,7 +3,7 @@
 .aitk/
 GEMINI.md
 agents.md
-mcp_config.json
+
 !/GEMINI.md  # Uncomment if you want to track these
 !/agents.md
 
